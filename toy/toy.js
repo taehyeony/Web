@@ -6,5 +6,8 @@ let toyRobot = {
     quantity : 10,
     showStock : function(){
         document.querySelector('#display').innerHTML = this.name + "제품은 " + this.quantity + "개 남아있습니다."; 
+    },
+    showPrice : function(){
+        alert(this.name + "제품은 " + this.price + "원입니다."); 
     }
 }
